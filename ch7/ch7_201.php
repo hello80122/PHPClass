@@ -7,5 +7,5 @@
         return $total;
     }
 
-    echo "總共是：".sum(2,4,6,8,10);
+    echo "總共是：".sum(2,10);
 ?>
