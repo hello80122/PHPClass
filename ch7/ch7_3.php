@@ -11,5 +11,5 @@
       table99($i,$j);
     }
   }
-  echo table99();
+  echo table99()"<br />";
 ?>
