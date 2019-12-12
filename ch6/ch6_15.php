@@ -5,5 +5,6 @@
         continue;
       }
       echo $i."<br />";
-    }
+    $i++;
+}
   ?>
