@@ -1,6 +1,5 @@
 <?php
-    include "Dog.php";
-    $mydog = new dog();
-    $mydog->age = 10;
-    echo "我的狗年紀 : ".$mydog->getAge();
-  ?>
+    include "dog.php";
+    $myDog = new dog("來福","白色","台狗土狗");
+    $myDog->dogRun();
+?>
