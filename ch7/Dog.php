@@ -1,6 +1,6 @@
 <?php
 include "Bark.php";
-abstract class dog implements Bark {
+abstract class Dog implements Bark {
    // 設定狗的屬性
    public $name;
    public $color;

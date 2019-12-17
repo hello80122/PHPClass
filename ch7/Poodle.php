@@ -1,7 +1,7 @@
 <?php
-include "dog.php";
+include "Dog.php";
 
-class Poodle extends dog{
+class Poodle extends Dog{
   protected $size;
 
   public function __construct($name,$color,$style,$size){
