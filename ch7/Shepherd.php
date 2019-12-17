@@ -4,7 +4,7 @@
   // 定義牧羊犬 Shepherd 是 狗 dog 的子類別
   class Shepherd extends Dog{
      // 定義子類別需要的屬性
-     protected $age;
+     public $age;
 
      public function __construct($name,$color,$style,$age){
        // 繼承父類別的屬性
