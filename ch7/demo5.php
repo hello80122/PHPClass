@@ -17,7 +17,6 @@ class Bird extends Animal{
 class Action {
     public function actionMove(Animal $obj) {
         $obj->move();
-        $obj->sleep();
     }
 }
 
