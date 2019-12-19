@@ -16,8 +16,8 @@ class Shape {
 }
 
 $circle = new Shape();
-echo $circle -> area(3);
+echo $circle -> area(3)."<br>";
 $rect = new Shape();
-echo $rect -> area(8,6);
-echo Sharp::hello()[1];
+echo $rect -> area(8,6)."<br>";
+echo Shape::hello()[1];
 ?>
