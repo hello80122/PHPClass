@@ -5,4 +5,6 @@ function __autoload($className){
         require $filename;
     }
 }
+
+spl_autoload_register('__autoload');
 ?>
